@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiacija</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./dist/main.js"></script>
+</head>
+<body>
+    <div class="background" id="bckr" style="background-image: url(AE.jpg);"></div>
+    <div class="background" id="bckrBus" style="background-image: url(varke1.JPG);  display: none;" ></div>
+
+    
+    <div class="transbox" id="RadInfo">
+        <h1>Šiuo metu gama dozės galia <br> Visagine:</h1>
+        <h2><span id="radiation">-</span> <br> <span style="font-size: 9vh;">nSv/h</h2>
+        <div class="chart" id="chart_div" style="width: 40vw; height: 20vh;"></div>
+        <!-- <img src="data.png" alt="Šiuo metu nepasiekiama" width="500" height="150">  -->
+        <p>(*)Normalus gamtinis jonizuojančiosios spinduliuotės lygis Lietuvoje yra &lt;300 nSv/h </p>
+    </div>
+
+    
+    <img src="Tvarkarastis.png" alt="Šiuo metu nepasiekiama" id="tvrk"  style="display: none;"></img>
+    <img src="Tvarkarastis 2.png" alt="Šiuo metu nepasiekiama" id="map"  style="display: none;"></img>
+</body>
+</html>
