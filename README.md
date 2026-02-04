@@ -1,7 +1,7 @@
-A project where I take Visagina's radiation values via API hourly
+A project where I take Visaginas' radiation values via API hourly
 
 Few aspects to upgrade:
-Responsiveness of CSS for diferent sized devices;
-Google charts not always loading.
+Responsiveness of CSS for different sized devices;
+Google charts are not always loading.
 
-Project is deprecated due to API policy changes
+This project is deprecated due to API policy changes
